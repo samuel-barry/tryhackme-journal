@@ -21,4 +21,8 @@ Welcome! This repo is a personal journal of my progress through TryHackMe and ot
 - 🔄 Complete: **Introduction to Cyber Security**
 - 🔜 Next Up: **SOC Level 1**
 
-Follow along via [`progress.md`](progress.md)!
+### 📝 Repository Structure
+
+- [`progress.md`](progress.md) — Daily learning log  
+- [`/notes/`](notes/) — Technical notes by topic  
+

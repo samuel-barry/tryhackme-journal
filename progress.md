@@ -1,5 +1,10 @@
 # TryHackMe Progress Log
 
+## 📅 12 April 2025
+**Setup:**  
+- Added placeholder notes for Linux and Networking  
+- Planning to start TryHackMe Pre-Security path tomorrow
+
 ---
 
 ## 📅 11 April 2025

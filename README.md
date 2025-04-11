@@ -24,5 +24,8 @@ Welcome! This repo is a personal journal of my progress through TryHackMe and ot
 ### 📝 Repository Structure
 
 - [`progress.md`](progress.md) — Daily learning log  
-- [`/notes/`](notes/) — Technical notes by topic  
+- [`/notes/`](notes/) — Technical notes by topic
+- [`notes/linux.md`](notes/linux.md) — Commands and concepts for Linux
+- [`notes/networking.md`](notes/networking.md) — Networking fundamentals
+
 

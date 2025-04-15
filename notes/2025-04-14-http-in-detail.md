@@ -68,6 +68,43 @@
 
 - Cookies store user-related data in the browser.
 - Used for session management, preferences, and tracking.
-- The server sets cookies using:
+- The server sets cookies using: Set-Cookie
+
+---
+
+## 🧪 Task 7: Making Requests (Practical)
+
+Used TryHackMe’s simulated HTTP request tool to send a series of requests.
+
+| Request                                  | Method | Parameters/Body                        | Flag                        |
+|------------------------------------------|--------|-----------------------------------------|-----------------------------|
+| `/room`                                  | GET    | —                                       | `THM{YOU'RE_IN_THE_ROOM}`   |
+| `/blog?id=1`                             | GET    | URL param: `id=1`                       | `THM{YOU_FOUND_THE_BLOG}`   |
+| `/user/1`                                | DELETE | —                                       | `THM{USER_IS_DELETED}`      |
+| `/user/2`                                | PUT    | Body: `username=admin`                  | `THM{USER_HAS_UPDATED}`     |
+| `/login`                                 | POST   | Body: `username=thm`, `password=letmein`| `THM{HTTP_REQUEST_MASTER}`  |
+
+---
+
+## ✅ Summary & Takeaways
+
+- Learned how HTTP works as the core communication protocol of the web.
+- Practiced the most common **HTTP methods**: GET, POST, PUT, DELETE.
+- Understood how **status codes and headers** structure the server response.
+- Used simulated tools to perform manual web requests.
+- Gained hands-on understanding of real-world HTTP request behavior and syntax.
+
+---
+
+## 📎 Tools Used
+
+- TryHackMe HTTP Request Builder (simulated)
+- Real-world equivalent tools: `curl`, Postman, Burp Suite
+
+---
+
+## 🚀 Room Complete!
+
+
 
 - 
